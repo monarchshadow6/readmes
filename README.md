@@ -7,7 +7,9 @@
 ## 🚀 Características ✨
 
 ✅ **Añadir nombres** a la lista de participantes.
+
 ✅ **Eliminar nombres** fácilmente.
+
 ✅ **Sortear un amigo secreto** aleatoriamente.
 ✅ **Opción para sortear parejas**.
 ✅ **Interfaz moderna** con fondo animado.
