@@ -36,7 +36,6 @@ Aquí algunas imágenes del funcionamiento de la aplicación:
 ### 🔀 Sorteo de parejas:
 ![Sorteo de Parejas](./assets/parejasecreta.png)
 
-💡 Para agregar tus imágenes en GitHub, súbelas a la carpeta `assets` y usa la sintaxis anterior.
 
 ---
 
