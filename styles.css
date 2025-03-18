@@ -1,0 +1,165 @@
+:root {
+    --color-primario: #ff9a9e;
+    --color-secundario: #fad0c4;
+    --color-boton: #ff6f61;
+    --color-boton-hover: #e64c3c;
+    --color-fondo: white;
+    --color-borde: #ccc;
+    --sombra-boton: rgba(0, 0, 0, 0.2);
+    --fuente-h1: 'Honk', cursive;
+    --fuente-h2: 'Kalnia', serif;
+    --fuente-lista: 'Parisienne', cursive;
+    --fuente-footer: 'Rye', cursive;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, var(--color-primario), var(--color-secundario));
+    position: relative;  /* Esto es importante para asegurar que el video quede detrás del contenido */
+}
+
+#videoFondo {
+    position: absolute; /* Para que el video quede detrás del contenido */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para que el video cubra el área del body sin distorsionarse */
+    z-index: -1; /* Asegura que el video esté detrás del contenido */
+}
+
+header, footer {
+    position: relative;  /* Para que el video no afecte estos elementos */
+    z-index: 1; /* Los elementos del header y footer deben estar por encima del video */
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background: var(--color-boton);
+    color: white;
+    width: 100%;
+}
+
+.header-contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    height: 150px;
+    width: auto;
+}
+
+h1 {
+    font-family: var(--fuente-h1);
+    font-size: 60px;
+}
+
+h2 {
+    font-family: var(--fuente-h2);
+}
+
+.lista {
+    font-family: var(--fuente-lista);
+    font-size: 25px;
+}
+
+footer p {
+    font-family: var(--fuente-footer);
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contenedor-principal {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.contenedor-izquierdo {
+    background: var(--color-fondo);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px var(--sombra-boton);
+}
+
+.botones {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: var(--color-boton);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: var(--color-boton-hover);
+    box-shadow: 0 4px 8px var(--sombra-boton);
+}
+
+.contenedor-derecho {
+    background: var(--color-fondo);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px var(--sombra-boton);
+    min-width: 200px;
+}
+
+.lista div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid var(--color-borde);
+}
+
+.boton-eliminar {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.boton-eliminar img {
+    width: 20px;
+    height: 20px;
+}
+
+.mensaje-sorteo, .mensaje-error {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mensaje-sorteo {
+    color: green;
+}
+
+.mensaje-error {
+    color: red;
+}
