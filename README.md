@@ -1,43 +1,62 @@
-# Amigo Secreto 🎁
+# 🌟 Amigo Secreto 🎁
 
-**Amigo Secreto** es una aplicación web que permite realizar sorteos de amigos secretos de manera interactiva y fácil de usar.
+**Amigo Secreto** es una aplicación web divertida e interactiva que permite realizar sorteos de amigos secretos de manera sencilla y rápida. ¡Ideal para celebraciones y eventos especiales! 🎉
 
-## 🚀 Características
+---
 
-- Añadir nombres a la lista de participantes.
-- Eliminar nombres de la lista.
-- Sortear de manera aleatoria un amigo secreto.
-- Opción para sortear parejas.
-- Interfaz con fondo animado.
-- Mensajes emergentes en pantalla.
+## 🚀 Características ✨
 
-## 📸 Capturas de pantalla
+✅ **Añadir nombres** a la lista de participantes.
+✅ **Eliminar nombres** fácilmente.
+✅ **Sortear un amigo secreto** aleatoriamente.
+✅ **Opción para sortear parejas**.
+✅ **Interfaz moderna** con fondo animado.
+✅ **Mensajes emergentes** en pantalla.
 
-*Agrega aquí capturas de pantalla del funcionamiento del proyecto.*
+---
 
-Para subir capturas a GitHub, agrégalas en la carpeta `assets` y usa este formato en el README:
+## 📸 Capturas de pantalla 🖼️
 
-```md
-![Descripción de la imagen](./assets/captura1.png)
+Aquí algunas imágenes del funcionamiento de la aplicación:
+
+### 🏠 Pantalla principal:
+![Pantalla Principal](./assets/pantalla_principal.png)
+
+### 📝 Nombres ingresados:
+![Nombres ingresados](./assets/nombres_ingresados.png)
+
+### 🎁 Sorteo del amigo secreto:
+![Sorteo Amigo Secreto](./assets/sorteo_amigo.png)
+
+### 🔀 Sorteo de parejas:
+![Sorteo de Parejas](./assets/sorteo_parejas.png)
+
+💡 Para agregar tus imágenes en GitHub, súbelas a la carpeta `assets` y usa la sintaxis anterior.
+
+---
+
+## 🛠 Tecnologías utilizadas 🧑‍💻
+
+🚀 **HTML5** - Estructura del proyecto.
+🎨 **CSS3** - Estilos y animaciones.
+⚡ **JavaScript (JS)** - Lógica y funcionalidad.
+
+---
+
+## 📥 Instalación y uso 🛠️
+
+1️⃣ Clona el repositorio en tu máquina:
+```sh
+   git clone https://github.com/tu-usuario/amigo-secreto.git
 ```
 
-## 🛠 Tecnologías utilizadas
+2️⃣ Abre el archivo `index.html` en tu navegador favorito.
 
-- **HTML5**
-- **CSS3** (con Google Fonts y diseño responsivo)
-- **JavaScript (JS)**
+3️⃣ ¡Comienza a sortear! 🎉
 
-## 📥 Instalación y uso
+---
 
-1. Clona el repositorio:
-   ```sh
-   git clone https://github.com/tu-usuario/amigo-secreto.git
-   ```
-2. Abre el archivo `index.html` en tu navegador favorito.
-3. ¡Empieza a sortear!
-
-## 📂 Estructura del proyecto
-
+## 📂 Estructura del proyecto 📁
 ```
 📂 amigo-secreto
 │-- 📂 assets/               # Imágenes y videos
@@ -47,15 +66,16 @@ Para subir capturas a GitHub, agrégalas en la carpeta `assets` y usa este forma
 │-- 📜 README.md             # Documentación del proyecto
 ```
 
-## 👨‍💻 Autor
-
-**Juan Flores**
-
-Si quieres contribuir, ¡haz un fork y envía tus mejoras! 😊
-
 ---
 
-📢 **Notas:**
+## 👨‍💻 Autor 🖊️
 
-- Si deseas agregar un dominio propio o publicarlo en GitHub Pages, sigue las instrucciones de [GitHub Pages](https://pages.github.com/).
+👤 **Juan Flores**
+
+📢 Si deseas contribuir, ¡haz un fork y envía tus mejoras! 😊
+
+💡 **Notas:**
+- Si quieres publicar el proyecto online, sigue la guía de [GitHub Pages](https://pages.github.com/). 🚀
+
+
 
