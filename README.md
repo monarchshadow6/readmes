@@ -1,42 +1,61 @@
-# readmes
-# Amigo Secreto
+# Amigo Secreto 🎁
 
-## Descripción
-"Amigo Secreto" es una aplicación web que permite realizar sorteos de amigo secreto y pareja secreta de manera sencilla. Los participantes pueden ingresar sus nombres y luego sortear de manera aleatoria su amigo secreto o su pareja secreta.
+**Amigo Secreto** es una aplicación web que permite realizar sorteos de amigos secretos de manera interactiva y fácil de usar.
 
-## Autor
+## 🚀 Características
+
+- Añadir nombres a la lista de participantes.
+- Eliminar nombres de la lista.
+- Sortear de manera aleatoria un amigo secreto.
+- Opción para sortear parejas.
+- Interfaz con fondo animado.
+- Mensajes emergentes en pantalla.
+
+## 📸 Capturas de pantalla
+
+*Agrega aquí capturas de pantalla del funcionamiento del proyecto.*
+
+Para subir capturas a GitHub, agrégalas en la carpeta `assets` y usa este formato en el README:
+
+```md
+![Descripción de la imagen](./assets/captura1.png)
+```
+
+## 🛠 Tecnologías utilizadas
+
+- **HTML5**
+- **CSS3** (con Google Fonts y diseño responsivo)
+- **JavaScript (JS)**
+
+## 📥 Instalación y uso
+
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/tu-usuario/amigo-secreto.git
+   ```
+2. Abre el archivo `index.html` en tu navegador favorito.
+3. ¡Empieza a sortear!
+
+## 📂 Estructura del proyecto
+
+```
+📂 amigo-secreto
+│-- 📂 assets/               # Imágenes y videos
+│-- 📜 index.html            # Estructura principal del sitio
+│-- 📜 styles.css            # Estilos y apariencia
+│-- 📜 scriptvideo.js        # Funcionalidad en JS
+│-- 📜 README.md             # Documentación del proyecto
+```
+
+## 👨‍💻 Autor
+
 **Juan Flores**
 
-## Tecnologías utilizadas
-- **HTML**: Estructura de la página web.
-- **CSS**: Estilos y diseño visual.
-- **JavaScript**: Lógica de funcionamiento del sorteo y la manipulación del DOM.
+Si quieres contribuir, ¡haz un fork y envía tus mejoras! 😊
 
-## Capturas de Pantalla
-A continuación, se presentan algunas capturas de la aplicación en funcionamiento:
+---
 
-1. **Pantalla principal**
-   ![Pantalla Principal](./Amigo%20secreto.png)
+📢 **Notas:**
 
-2. **Ingreso de nombres**
-   ![Ingreso de Nombres](./Ingreso%20de%20nombres.png)
-
-3. **Sorteo de Parejas Secretas**
-   ![Pareja Secreta](./Pareja%20secreta.png)
-
-## Archivos del Proyecto
-- `index.html`: Contiene la estructura base de la página web.
-- `styles.css`: Archivo que define los estilos de la aplicación.
-- `scriptvideo.js`: Contiene la lógica del sorteo y la manipulación de los elementos HTML.
-
-## Cómo Usarlo
-1. Abre el archivo `index.html` en un navegador web.
-2. Ingresa los nombres de los participantes en el campo correspondiente.
-3. Usa el botón "Añadir" para agregarlos a la lista.
-4. Presiona "Sortear Amigo" para obtener un amigo secreto aleatorio.
-5. También puedes presionar "Sortear Parejas" para generar pares aleatorios.
-6. Si deseas reiniciar el sorteo, presiona el botón "Reiniciar".
-
-## Licencia
-Este proyecto es de uso libre y puede ser modificado o distribuido según sea necesario.
+- Si deseas agregar un dominio propio o publicarlo en GitHub Pages, sigue las instrucciones de [GitHub Pages](https://pages.github.com/).
 
