@@ -1,4 +1,4 @@
-# 🌟 Amigo Secreto 🎁
+# 🌟 Amigo Secreto ONE🎁
 
 **Amigo Secreto** es una aplicación web divertida e interactiva que permite realizar sorteos de amigos secretos de manera sencilla y rápida. ¡Ideal para celebraciones y eventos especiales! 🎉
 
@@ -11,8 +11,11 @@
 ✅ **Eliminar nombres** fácilmente.
 
 ✅ **Sortear un amigo secreto** aleatoriamente.
+
 ✅ **Opción para sortear parejas**.
+
 ✅ **Interfaz moderna** con fondo animado.
+
 ✅ **Mensajes emergentes** en pantalla.
 
 ---
@@ -22,16 +25,16 @@
 Aquí algunas imágenes del funcionamiento de la aplicación:
 
 ### 🏠 Pantalla principal:
-![Pantalla Principal](./assets/pantalla_principal.png)
+![Pantalla Principal](./assets/pantallaprincipal.png)
 
 ### 📝 Nombres ingresados:
-![Nombres ingresados](./assets/nombres_ingresados.png)
+![Nombres ingresados](./assets/ingresodenombres.png)
 
 ### 🎁 Sorteo del amigo secreto:
-![Sorteo Amigo Secreto](./assets/sorteo_amigo.png)
+![Sorteo Amigo Secreto](./assets/amigosecreto.png)
 
 ### 🔀 Sorteo de parejas:
-![Sorteo de Parejas](./assets/sorteo_parejas.png)
+![Sorteo de Parejas](./assets/parejasecreta.png)
 
 💡 Para agregar tus imágenes en GitHub, súbelas a la carpeta `assets` y usa la sintaxis anterior.
 
@@ -40,21 +43,20 @@ Aquí algunas imágenes del funcionamiento de la aplicación:
 ## 🛠 Tecnologías utilizadas 🧑‍💻
 
 🚀 **HTML5** - Estructura del proyecto.
-🎨 **CSS3** - Estilos y animaciones.
+🎨 **CSS** - Estilos y animaciones.
 ⚡ **JavaScript (JS)** - Lógica y funcionalidad.
 
 ---
 
 ## 📥 Instalación y uso 🛠️
 
-1️⃣ Clona el repositorio en tu máquina:
-```sh
-   git clone https://github.com/tu-usuario/amigo-secreto.git
-```
-
-2️⃣ Abre el archivo `index.html` en tu navegador favorito.
-
-3️⃣ ¡Comienza a sortear! 🎉
+1️⃣ Abre el archivo index.html en un navegador web. 
+2️⃣ Ingresa los nombres de los participantes en el campo correspondiente.
+3️⃣ Usa el botón "Añadir" para agregarlos a la lista. 
+4️⃣ Presiona "Sortear Amigo" para obtener un amigo secreto aleatorio. 
+5️⃣ También puedes presionar "Sortear Parejas" para generar pares aleatorios.
+6️⃣ Si deseas reiniciar el sorteo, presiona el botón "Reiniciar".
+7️⃣ ¡Comienza a sortear! 🎉
 
 ---
 
@@ -76,8 +78,8 @@ Aquí algunas imágenes del funcionamiento de la aplicación:
 
 📢 Si deseas contribuir, ¡haz un fork y envía tus mejoras! 😊
 
-💡 **Notas:**
-- Si quieres publicar el proyecto online, sigue la guía de [GitHub Pages](https://pages.github.com/). 🚀
+💡 **Licencia:**
+- Este proyecto es de uso libre y puede ser modificado o distribuido según sea necesario. 🚀
 
 
 
