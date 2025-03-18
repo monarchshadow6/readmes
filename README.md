@@ -43,7 +43,9 @@ Aquí algunas imágenes del funcionamiento de la aplicación:
 ## 🛠 Tecnologías utilizadas 🧑‍💻
 
 🚀 **HTML5** - Estructura del proyecto.
+
 🎨 **CSS** - Estilos y animaciones.
+
 ⚡ **JavaScript (JS)** - Lógica y funcionalidad.
 
 ---
@@ -51,11 +53,17 @@ Aquí algunas imágenes del funcionamiento de la aplicación:
 ## 📥 Instalación y uso 🛠️
 
 1️⃣ Abre el archivo index.html en un navegador web. 
+
 2️⃣ Ingresa los nombres de los participantes en el campo correspondiente.
+
 3️⃣ Usa el botón "Añadir" para agregarlos a la lista. 
+
 4️⃣ Presiona "Sortear Amigo" para obtener un amigo secreto aleatorio. 
+
 5️⃣ También puedes presionar "Sortear Parejas" para generar pares aleatorios.
+
 6️⃣ Si deseas reiniciar el sorteo, presiona el botón "Reiniciar".
+
 7️⃣ ¡Comienza a sortear! 🎉
 
 ---
